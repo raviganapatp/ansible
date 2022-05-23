@@ -1,0 +1,9 @@
+[submodule "roles/ansible-role-kubernetes"]
+	path = roles/ansible-role-kubernetes
+	url = https://github.com/raviganapatp/ansible-role-kubernetes.git
+[submodule "roles/ansible-role-docker"]
+	path = roles/ansible-role-docker
+	url = https://github.com/raviganapatp/ansible-role-docker.git
+[submodule "roles/ansible-role-swap"]
+	path = roles/ansible-role-swap
+	url = https://github.com/raviganapatp/ansible-role-swap.git
