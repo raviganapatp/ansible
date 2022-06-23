@@ -7,6 +7,11 @@ This ansible playbook does below tasks:
 ## Pre-requisites:
 i. `ansible` and `ansible-playbook` should be installed
 
+ii. Add ips of the VMs in `/etc/ansible/hosts` file like below
+
+    < IP1 >
+    < IP2 >
+
 ## Steps
 1. Update `kubernetes_version` and `kubernetes_version_rhel_package` with required kubernetes version 
 2. Update master/worker IPs in the `k8s-setup-new.yaml` file 
