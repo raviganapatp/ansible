@@ -20,8 +20,10 @@
 #  - manage_user
 
 - name: Kubernetes setup on Master
-  hosts: 10.106.143.137
+  hosts: 10.106.175.163
   remote_user: root
+    #remote_user: kubemaster
+    #become: yes
 
   vars:
     kubernetes_allow_pods_on_master: false
@@ -39,8 +41,8 @@
 
 - name: Kubernetes setup on Workers
   hosts: 
-  - 10.106.143.138
-  - 10.106.143.139
+  - 10.106.175.164
+  - 10.106.175.165
   remote_user: root
 
   vars:

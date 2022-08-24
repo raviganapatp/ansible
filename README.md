@@ -1,3 +1,11 @@
+`Note : This ansible playbook supports installation of Kubernetes till version 1.23`
+```
+TO-DO
+1. From k8s 1.24, docker support is removed from kubernetes i.e docjershim component is removed from the k8s source code
+2. As a result, we need to install container runtime cri-dockerd separately to support docker, else install other CRIs like cri-o/containerd etc
+3. write code for supporting point 1 and 2 
+```
+
 # ansible code to install Docker/Kubernetes
 This ansible playbook does below tasks:
 1. Disable Swap
